@@ -1,24 +1,8 @@
-#ATM
+Project Title: BadBank Project
 
-Simple React ATM App
-This is a simple React-based ATM application that allows users to perform basic banking operations such as deposits and cash withdrawals. The app maintains and displays the current balance of the user's account and logs each transaction.
+Description/Motivation: This is a React-based banking application that allows users to perform basic banking operations such as deposits and cash withdrawals. The app maintains and displays the current balance of the user's account and logs each transaction.  This is a good app for new developers to see the three tiers of an application and how the communicate and function with each other
 
-Features
-Deposit Funds: Users can add funds to their account balance.
-Withdraw Funds: Users can withdraw funds (cash back) from their account, provided they have sufficient balance.
-Transaction Log: The app displays a log of all transactions made during the session.
-Technologies Used
-React: For building the user interface components.
-JavaScript: For implementing the application logic.
-Project Structure
-ATMDeposit Component: Handles the input and submission for deposits and withdrawals.
-Ledger Component: Displays a list of all transactions made (deposits and withdrawals).
-Account Component: Manages the account state, including the current balance and the mode (Deposit or Cash Back). It also renders the ATMDeposit and Ledger components.
-Getting Started
-Prerequisites
-Node.js and npm installed on your machine.
-Installation
-
+Installation Guidelines: 
 1. Clone the repository:
 bash
 
@@ -31,6 +15,17 @@ Running the App
 1. Clone the repository
 2. Navigate into the project directory
 3. Install dependencies
+
+
+
+Technology used: HTML, javascript, react, bootstrap, docker, mongoDB, node, express, firebase.
+
+Features: As of now you have pages to login to check your balance, withdrawal and make deposits.  I am in the process of refactoring that to one page so you can see all of that information in one page.
+
+![image](https://github.com/user-attachments/assets/418f24d2-3c8c-41fa-9b9b-821deb55b363)
+
+
+
 
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
